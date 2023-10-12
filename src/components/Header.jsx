@@ -21,27 +21,27 @@ function Header() {
                             </label>
                             <input type="checkbox" id="menu_box" hidden />
                             <div class="d-flex gap-3 align-items-center small_screen justify-content-center">
-                                <ul class="d-flex gap-3 list-unstyled align-items-center justify-content-center mb-0">
-                                    <li><a href="#home" class="ff-poppins fs-18 text-black  nav-link">Home</a></li>
-                                    <li><a href="#about" class="ff-poppins fs-18 text-black nav-link text-nowrap">About
+                                <ul class="d-flex gap-40 list-unstyled align-items-center justify-content-center mb-0">
+                                    <li><a href="#home" class="ff-poppins fs-18 text-black fw-400 nav-link1">Home</a></li>
+                                    <li><a href="#about" class="ff-poppins fs-18 text-black fw-400 nav-link1 text-nowrap">About
                                         Us</a></li>
-                                    <li><a href="#toke" class="ff-poppins fs-18 text-black nav-link">Tokenomics</a></li>
-                                    <li><a href="#roadmap" class="ff-poppins fs-18 text-black nav-link">Roadmap</a></li>
-                                    <li><a href="#contact" class="ff-poppins fs-18 text-black nav-link">Contact</a></li>
+                                    <li><a href="#toke" class="ff-poppins fs-18 text-black fw-400 nav-link1">Tokenomics</a></li>
+                                    <li><a href="#roadmap" class="ff-poppins fs-18 text-black fw-400 nav-link1">Roadmap</a></li>
+                                    <li><a href="#contact" class="ff-poppins fs-18 text-black fw-400 nav-link1">Contact</a></li>
                                 </ul>
                                 <div class="d-flex justify-content-center">
-                                    <button class="btn-wallet bor-radius bor-none">Connect Wallet</button>
+                                    <button class="btn-wallet bor-radius bor-none fw-400 ff-poppins fs-20">Connect Wallet</button>
                                 </div>
                             </div>
                         </div>
                     </nav>
                 </div>
                 <div>
-                    <img src={hsimg} alt='hero-section-img' className='w-100 ' />
+                    <img src={hsimg} alt='hero-section-img' className='w-100 mt-lg-0 mt-52' />
                 </div>
                 <div className='position-relative'>
                     <div className='container'>
-                        <h2 class="ff-poppins fs-36 fw-700 text-center pt-5 mt-4 mb-0">WELCOME TO</h2>
+                        <h2 class="ff-poppins fs-36 fw-700 text-center pt-5 mt-lg-4 mb-0">WELCOME TO</h2>
                         <div className='d-flex align-items-center justify-content-center flex-column pt-4'>
                             <img src={headimg1} alt='header-img1' className='w-100 mw-806 cur-pointer' />
                             <img src={headimg2} alt='header-img2' className='w-50 translate mw-345 cur-pointer' />
