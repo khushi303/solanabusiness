@@ -115,7 +115,7 @@ function faq() {
                             </a>
                         </span>
                     </div>
-                    <p class="ff-poppins font-size-18 fw-400 text-align-center mt-52 mb-0 pb-48">@Copyright 2021</p>
+                    <p class="ff-poppins font-size-18 fw-400 text-align-center mt-5 mb-0 pb-48">@Copyright 2021</p>
                 </div>
             </footer>
         </div>
